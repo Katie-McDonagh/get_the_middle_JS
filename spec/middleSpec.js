@@ -57,9 +57,16 @@
 //   });
 // });
 
-describe ("Middle", function(){
+describe ("getMiddle", function(){
+
+  var middle
+
+  beforeEach(function(){
+    middle = new getMiddle();
+  })
 
   it("returns A when given A", function() {
+    
     expect(getMiddle("A")).toEqual ("A")
   })
 

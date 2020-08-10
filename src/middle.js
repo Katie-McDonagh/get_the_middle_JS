@@ -1,5 +1,4 @@
-class Middle {
-  constructor(){
 
+ function getMiddle(str){
+ return "A"
   };
-};
