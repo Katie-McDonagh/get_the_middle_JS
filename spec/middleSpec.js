@@ -59,19 +59,13 @@
 
 describe ("getMiddle", function(){
 
-  var middle
-
-  beforeEach(function(){
-    middle = new getMiddle();
-  })
-
-  it("returns A when given A", function() {
+  it("returns 'A' when given 'A'", function() {
     
     expect(getMiddle("A")).toEqual ("A")
   })
 
-  it("returns t when given testing", function(){
+  it("returns 't' when given 'testing'", function(){
     expect(getMiddle("testing")).toEqual("t")
   })
-
+    
 });

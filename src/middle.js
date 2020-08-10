@@ -1,9 +1,7 @@
 
 function getMiddle(str){
-if(str === "A"){
-  return "A"
-} else {
-  return "t"
-};
+
+  let middleNumber = Math.ceil(str.length /2)
+  return str.charAt(middleNumber -1);
   
 };
