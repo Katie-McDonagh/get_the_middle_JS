@@ -72,4 +72,8 @@ describe ("getMiddle", function(){
     expect(getMiddle('of')).toEqual("of")
   })
     
+  it("returns 'dd' when given 'middle'", function(){
+    expect(getMiddle('middle')).toEqual("dd")
+  })
+  
 });
