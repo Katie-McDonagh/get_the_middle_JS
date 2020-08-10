@@ -70,4 +70,8 @@ describe ("getMiddle", function(){
     expect(getMiddle("A")).toEqual ("A")
   })
 
+  it("returns t when given testing", function(){
+    expect(getMiddle("testing")).toEqual("t")
+  })
+
 });
