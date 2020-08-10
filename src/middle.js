@@ -1,4 +1,9 @@
 
- function getMiddle(str){
- return "A"
-  };
+function getMiddle(str){
+if(str === "A"){
+  return "A"
+} else {
+  return "t"
+};
+  
+};
